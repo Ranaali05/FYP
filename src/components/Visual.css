@@ -1,0 +1,90 @@
+/* Updated CSS for horizontal menu bar with spaced buttons */
+.menu-bar {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center;
+  padding: 10px;
+  background-color: #816e6e; /* Light background color */
+}
+.board {
+  border: 2px solid #070707;
+  border-radius: 5px;
+}
+
+
+.color-button,
+.brush-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin-right: 5px; /* Add horizontal margin for spacing */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 50%;
+}
+
+/* Color buttons */
+.color-button.black {
+  background-color: black;
+}
+
+.color-button.black:hover {
+  background-color: #666;
+}
+
+.color-button.red {
+  background-color: red;
+}
+
+.color-button.red:hover {
+  background-color: #ff6666;
+}
+
+.color-button.blue {
+  background-color: blue;
+}
+
+.color-button.blue:hover {
+  background-color: #6666ff;
+}
+
+/* Brush buttons */
+.brush-button {
+  background-color: #ccc; /* Default color for brush buttons */
+}
+
+.brush-button:hover {
+  background-color: #eee;
+}
+
+.brush-button.clear {
+  background-color: #f3fafa;
+}
+
+.brush-button.clear:hover {
+  background-color: #f1f1f1;
+}
+
+.brush-button.undo {
+  background-color: #9db9da;
+}
+
+.brush-button.undo:hover {
+  background-color: #bec1fc;
+}
+
+.brush-button.redo {
+  background-color: #b4caf6;
+}
+
+.brush-button.redo:hover {
+  background-color: #6666ff;
+}
+
+.brush-button.save {
+  background-color: #13f21e;
+}
+
+.brush-button.save:hover {
+  background-color: #0ceb2d;
+}
